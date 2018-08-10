@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Magik</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- <img src="img/logo2.png" id="logo">
+    <h1 id="title">Magik Studio</h1> -->
+    <div id="div1">
+        
+        <div id="div2">
+            <!-- <div id="nav-wrapper"> -->
+                <ul>
+                    <li><a href="index.html" >Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contactos.html">Contactos</a></li>
+                    <li><a href="sedes.html">Sedes</a></li>
+                    <li><a href="acercade.html">Acerca de</a></li>
+                </ul>
+                <h1>Magik Studio</h1>
+            <!-- </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+/* Estilos generales */
+ *{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color:#e8acb8 ;*/
+    
+}
+body{
+    background-image: url(../img/car.jpg  );
+    margin: 10px 2px;
+}
+#title{
+    text-align: center; 
+    /* border: solid #d93b0a; */
+    font-family:Snell Roundhand, cursive;
+    font-size: 60px;
+    color:#c2577b;
+}
+#div1{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height:650px;
+    text-align: center;
+    /* background-color: #c2577b; */
+     
+}
+#div2{
+    /* background: red; */
+    
+    width: 100%;
+    height: 100px;
+    line-height: 0PX;
+    /* background-color: aqua; */
+}
+#div2 h1{
+   
+    font-weight: 400;   
+    cursor: pointer;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 216px;
+    
+}
+#div2 ul{
+    float: left;
+
+}
+#div2 ul li{
+    
+    list-style: none;
+    display: inline-block
+    
+}
+#div2 ul li a{
+    text-decoration: none;
+    padding: 42px;
+    margin-left: 5px;
+    color: #1b1b1b;
+}
+#div2 ul li:hover{
+    background:#c4bcae;
+    opacity: 0.6;
+}
