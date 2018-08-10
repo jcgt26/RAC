@@ -41,8 +41,10 @@ ul li{
     font-size: 30px;
     margin-right: 2px;
     border-radius: 21px 21px 21px 21px;
+    transition:all .2s ease
 }
 ul li a{
+
     color: whitesmoke;
     text-decoration: none;
     display: block;
@@ -50,8 +52,8 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: #152a3b;
-    
+    background-color: #00434e;
+    transition-delay:5s
 }
 
 
