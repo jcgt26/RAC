@@ -2,7 +2,7 @@ body{
     background-color: #152a3b;
     margin: 0px;
     padding: 0px;
-    color: #ffffff;
+    color: #f1ddaa;;
 }
 #info{
     margin-top: 70px;
@@ -11,7 +11,7 @@ body{
     /* background-color: red; */
     margin: 0 auto;
     width: 600px;
-    border: solid #ffffff;
+    border: solid #f1ddaa;;
 }
 
 #internoDatos h1{
@@ -21,5 +21,8 @@ body{
 }
 #internoDatos{
     text-align: center;
+}
+p{
+    padding: 10px;
 }
 

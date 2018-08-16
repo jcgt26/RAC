@@ -6,12 +6,13 @@ body{
 }
 #titulo{
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 80px;
+    font-size: 57px;
     /* background-color: blue; */
    text-align: left;  
 }
 #titulo h1{
     margin-left: 118px;
+    color:#f1ddaa;
 }
 #contendorListas{
     /* background-color: red; */
@@ -45,7 +46,7 @@ ul li{
 }
 ul li a{
 
-    color: whitesmoke;
+    color: #f1ddaa;
     text-decoration: none;
     display: block;
     margin-left: 0px;
